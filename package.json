@@ -3,12 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@stickyroll/decorators": "^1.2.0",
+    "@stickyroll/hooks": "^1.2.0",
+    "@stickyroll/inner": "^1.2.0",
+    "@stickyroll/pagers": "^1.2.0",
+    "@stickyroll/stickyroll": "^1.2.0",
+    "@stickyroll/themes": "^1.2.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "node-sass": "4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "react-scroll": "^1.8.1",
+    "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

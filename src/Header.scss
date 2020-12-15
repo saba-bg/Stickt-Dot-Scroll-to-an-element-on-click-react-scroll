@@ -1,0 +1,40 @@
+
+.StickDotBox {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.StickDotList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.StickDotElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.strok {
+  stroke: #fcca46;
+  stroke-dasharray: 5;
+}
+.StickDot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fcca46;
+  border: none;
+  margin: 5px auto 0 auto;
+  transition: all ease-in-out 0.2s;
+}
+.StickDotactive {
+  &:first-child {
+    border: 3px solid #fe7f2d;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+  }
+  .StickDot {
+    background-color: #fe7f2d;
+  }
+}
